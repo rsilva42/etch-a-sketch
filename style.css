@@ -1,0 +1,36 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ea110d;
+}
+
+.header h1 {
+    color: #e2bc34;
+    font-family: sans-serif;
+}
+
+.header button {
+    padding: 5px;
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+}
+
+.grid-row {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.grid-square {
+    border: 1px solid black;
+    flex: 1 1 auto;
+    aspect-ratio: 1/1;
+}
