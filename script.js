@@ -79,7 +79,3 @@ populateGrid(grid, gridSize);
 
 clearButton.addEventListener('click', clearGrid);
 resizeButton.addEventListener('click', resizeGrid);
-
-
-// make button to clear and prompt for new size
-// when new size is selected clearGrid and populate it again
